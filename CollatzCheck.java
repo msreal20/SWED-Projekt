@@ -1,6 +1,6 @@
-public class CollatzCheck {
+public class FunctionCheck {
 
-    public static int collatzSteps(long n) {
+    public static int ulamSteps(long n) {
         int steps = 0;
 
         while (n != 1) {
@@ -21,7 +21,7 @@ public class CollatzCheck {
         int limit = 5;
 
         for (int i = 1; i < limit; i++) {
-            collatzSteps(i);
+            ulamSteps(i);
         }
 
         System.out.println("All numbers below 5 reach 1.");
